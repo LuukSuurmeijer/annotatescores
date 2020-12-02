@@ -18,9 +18,13 @@ Requirements:
 Make sure to set all the music21 settings correctly. Most importantly the musicXML, png and show settings. Here is an example.
 
 musicxmlPath:              /usr/bin/musescore3
+
 graphicsPath:              /usr/bin/eog
+
 musescoreDirectPNGPath:    /usr/bin/musescore3
+
 showFormat:                png
+
 ipythonShowFormat:         ipython.musicxml.png
 
 
