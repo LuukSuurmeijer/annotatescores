@@ -33,3 +33,6 @@ Files:
 - annotate.py             is a script that performs annotation on 1 file passed as commandline arguments
 - musicentropy_shell.py   is a currently depreciated interactive shell for viewing scores and slices side by side
 - slices.tsv & score.mxl  are a sample to test the code on
+
+The colormap used is matplotlib's "plasma", but all colormaps from matplotlib should work and can be easily changed when running the code (https://matplotlib.org/tutorials/colors/colormaps.html).
+![alt text](colormap.png)
