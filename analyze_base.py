@@ -126,6 +126,7 @@ class Entropyscore():
         mapping = matplotlib.cm.ScalarMappable()
         mapping.set_array(surprisals)
         mapping.set_cmap(cmap)
+        mapping.to_rgba(surprisals) #this line is needed for weird unknown reasons
         #Color each part in score seperatable
         for part in self.score.parts:
             v = part.flat #This ensure notes in embedded data structures are not skipped
