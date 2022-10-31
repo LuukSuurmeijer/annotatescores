@@ -2,6 +2,9 @@
 
 This repo contains code that annotates a music score (in XML format) with colours for each note based on a slices file. A slices file contains information about particular time intervals in a musical score.
 
+An example of a part of the score of Der Verzweifelte Liebhaber coloured and ranked by information theoretic surprisal (as estimated by a language model).
+![alt text](annotatescoresex.png)
+
 ========================================
 
 It is highly recommended to run
